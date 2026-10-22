@@ -1,0 +1,8 @@
+,,pct_outside_region
+by GRD weight quartile,Q1 (lowest),0.011773376583749173
+by GRD weight quartile,Q2,0.01958763852329252
+by GRD weight quartile,Q3,0.020163640232000964
+by GRD weight quartile,Q4 (highest),0.04141890064871824
+by admission type,Elective,0.0474975674085722
+by admission type,Emergency,0.018936098198082774
+by admission type,Obstetric,0.00855890986868751

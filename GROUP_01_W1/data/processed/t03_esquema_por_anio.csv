@@ -1,0 +1,6 @@
+aspect,2023,2024
+File encoding,UTF-16,Latin-1
+Patient identifier column,CIP_ENCRIPTADO,ID_BENEFICIARIO
+Admission/discharge date format,DD-MM-YYYY,YYYY-MM-DD
+Date-of-birth format,YYYY-MM-DD,YYYY-MM-DD
+Decimal separator of GRD weight,comma,comma

@@ -1,0 +1,14 @@
+C,check,result,pct_of_episodes
+Completeness,FECHA_INGRESO (admission date) not parseable,52,0.0024%
+Completeness,FECHAALTA (discharge date) not parseable,0,0.0000%
+Completeness,COMUNA = 'DESCONOCIDO' (unknown) or empty,12,0.0006%
+Completeness,Age not computable,65,0.0031%
+Completeness,HOSPPROCEDENCIA empty (expected: only transfers have it),1892677,89.0504%
+Consistency,Negative length of stay (discharge < admission),0,0.0000%
+Consistency,CMA with length of stay > 1 day,419,0.0197%
+Consistency,Age < 0 or > 110,0,0.0000%
+Conformity,GRD code not in the IR-GRD dictionary,47,0.0022%
+Conformity,GRD weight not numeric,45,0.0021%
+Conformity,"Severity outside {0,1,2,3}",45,0.0021%
+Coverage,Hospitals 2023 / 2024,68 / 72,
+Credibility,FONASA extraction date 2023 / 2024,04-09-2024 / 16-05-2025 (FONASA catalogue),
