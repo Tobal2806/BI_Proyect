@@ -1,0 +1,13 @@
+,value
+facilities_rows,5616
+facilities_key_unique,True
+fonasa_dictionary_rows,377
+fonasa_key_unique,True
+hospital_codes_in_GRD,72
+matched_in_fonasa_dictionary,71
+matched_in_facilities,72
+rows_before_join,2125400
+rows_after_join,2125400
+episodes_without_match,0
+complexity_levels,"{'Alta Complejidad': 58, 'Mediana Complejidad': 14}"
+national_institutes_(name_contains_Instituto),3

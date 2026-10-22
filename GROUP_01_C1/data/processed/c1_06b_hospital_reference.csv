@@ -1,0 +1,73 @@
+COD_HOSPITAL,NAME,HOSPITAL,COMPLEXITY,REGION
+101100,Hospital Dr. Juan Noé Crevanni (Arica),Hospital Regional Dr. Juan Noé Crevani (Arica),Alta Complejidad,Región de Arica Parinacota
+102100,Hospital Dr. Ernesto Torres Galdames (Iquique),Hospital Dr. Ernesto Torres Galdames (Iquique),Alta Complejidad,Región de Tarapacá
+103100,Hospital Dr. Leonardo Guzmán (Antofagasta),Hospital Dr. Leonardo Guzmán (Antofagasta),Alta Complejidad,Región de Antofagasta
+103101,Hospital Dr. Carlos Cisternas (Calama),Hospital Dr. Carlos Cisternas (Calama),Alta Complejidad,Región de Antofagasta
+104100,Hospital San José del Carmen (Copiapó),Hospital San José del Carmen (Copiapó),Alta Complejidad,Región de Atacama
+104103,Hospital Provincial del Huasco Monseñor Fernando Ariztía Ruiz (Vallenar),Hospital Provincial del Huasco Monseñor Fernando Ariztía Ruiz (Vallenar),Mediana Complejidad,Región de Atacama
+105100,Hospital San Juan de Dios (La Serena),Hospital San Juan de Dios (La Serena),Alta Complejidad,Región de Coquimbo
+105101,Hospital San Pablo (Coquimbo),Hospital San Pablo (Coquimbo),Alta Complejidad,Región de Coquimbo
+105102,Hospital Dr. Antonio Tirado Lanas (Ovalle),Hospital Dr. Antonio Tirado Lanas de Ovalle,Alta Complejidad,Región de Coquimbo
+106100,Hospital Carlos Van Buren (Valparaíso),Hospital Carlos Van Buren (Valparaíso),Alta Complejidad,Región de Valparaíso
+106102,Hospital Dr. Eduardo Pereira Ramírez (Valparaíso),Hospital Dr. Eduardo Pereira Ramírez (Valparaíso),Alta Complejidad,Región de Valparaíso
+106103,Hospital Claudio Vicuña (San Antonio),Hospital Claudio Vicuña (San Antonio),Alta Complejidad,Región de Valparaíso
+107100,Hospital Dr. Gustavo Fricke (Viña del Mar),Hospital Dr. Gustavo Fricke (Viña del Mar),Alta Complejidad,Región de Valparaíso
+107101,Hospital San Martín (Quillota),Hospital Biprovincial Quillota Petorca,Alta Complejidad,Región de Valparaíso
+107102,Hospital de Quilpué,Hospital de Quilpué,Alta Complejidad,Región de Valparaíso
+108100,Hospital de San Camilo (San Felipe),Hospital San Camilo de San Felipe,Alta Complejidad,Región de Valparaíso
+108101,Hospital San Juan de Dios (Los Andes),Hospital San Juan de Dios (Los Andes),Alta Complejidad,Región de Valparaíso
+109100,"Complejo Hospitalario San José (Santiago, Independencia)","Complejo Hospitalario San José (Santiago, Independencia)",Alta Complejidad,Región Metropolitana de Santiago
+109101,"Hospital Clínico de Niños Dr. Roberto del Río (Santiago, Independencia)","Hospital Clínico de Niños Dr. Roberto del Río (Santiago, Independencia)",Alta Complejidad,Región Metropolitana de Santiago
+110100,"Hospital San Juan de Dios (Santiago, Santiago)","Hospital San Juan de Dios (Santiago, Santiago)",Alta Complejidad,Región Metropolitana de Santiago
+110110,Instituto Traumatológico Dr. Teodoro Gebauer,Instituto Traumatológico Dr. Teodoro Gebauer,Alta Complejidad,Región Metropolitana de Santiago
+110120,"Hospital Dr. Félix Bulnes Cerda (Santiago, Quinta Normal)",Hospital  Félix Bulnes Cerda,Alta Complejidad,Región Metropolitana de Santiago
+110130,Hospital Adalberto Steeger (Talagante),Hospital Adalberto Steeger (Talagante),Mediana Complejidad,Región Metropolitana de Santiago
+110150,Hospital San José (Melipilla),Hospital San José (Melipilla),Alta Complejidad,Región Metropolitana de Santiago
+111100,"Hospital Clínico San Borja-Arriarán (Santiago, Santiago)",Hospital Clínico San Borja Arriarán,Alta Complejidad,Región Metropolitana de Santiago
+111101,Hospital Clínico Metropolitano El Carmen Doctor Luis Valentín Ferrada,Hospital Clínico Metropolitano El Carmen Doctor Luis Valentín Ferrada,Alta Complejidad,Región Metropolitana de Santiago
+111195,Hospital de Urgencia Asistencia Pública Dr. Alejandro del Río,Hospital de Urgencia Asistencia Pública Dr. Alejandro del Río,Alta Complejidad,Región Metropolitana de Santiago
+112100,"Hospital Del Salvador (Santiago, Providencia)",Hospital Del Salvador de Santiago,Alta Complejidad,Región Metropolitana de Santiago
+112101,"Hospital Dr. Luis Tisné B. (Santiago, Peñalolén)","Hospital Dr. Luis Tisné B. (Santiago, Peñalolén)",Alta Complejidad,Región Metropolitana de Santiago
+112102,"Hospital de Niños Dr. Luis Calvo Mackenna (Santiago, Providencia)",Hospital de Niños Dr. Luis Calvo Mackenna,Alta Complejidad,Región Metropolitana de Santiago
+112103,Instituto Nacional de Enfermedades Respiratorias y Cirugía Torácica,Instituto Nacional de Enfermedades Respiratorias y Cirugía Torácica,Alta Complejidad,Región Metropolitana de Santiago
+112104,Instituto de Neurocirugía Dr. Alfonso Asenjo,Instituto de Neurocirugía Dr. Alfonso Asenjo,Alta Complejidad,Región Metropolitana de Santiago
+113100,"Hospital Barros Luco Trudeau (Santiago, San Miguel)","Hospital Barros Luco Trudeau (Santiago, San Miguel)",Alta Complejidad,Región Metropolitana de Santiago
+113130,"Hospital Dr. Exequiel González Cortés (Santiago, San Miguel)","Hospital Dr. Exequiel González Cortés (Santiago, San Miguel)",Alta Complejidad,Región Metropolitana de Santiago
+113150,Hospital San Luis (Buin),Hospital San Luis (Buin),Mediana Complejidad,Región Metropolitana de Santiago
+113180,"Hospital El Pino (Santiago, San Bernardo)","Hospital El Pino (Santiago, San Bernardo)",Alta Complejidad,Región Metropolitana de Santiago
+114101,"Complejo Hospitalario Dr. Sótero del Río (Santiago, Puente Alto)","Complejo Hospitalario Dr. Sótero del Río (Santiago, Puente Alto)",Alta Complejidad,Región Metropolitana de Santiago
+114103,Hospital Padre Alberto Hurtado (San Ramón),Hospital Padre Alberto Hurtado (San Ramón),Alta Complejidad,Región Metropolitana de Santiago
+114105,Hospital Clínico Metropolitano La Florida Dra. Eloisa Díaz Inzunza,Hospital Clínico Metropolitano La Florida Dra. Eloísa Díaz Insunza,Alta Complejidad,Región Metropolitana de Santiago
+115100,Hospital Regional de Rancagua,Hospital Dr. Franco Ravera Zunino,Alta Complejidad,Región del Libertador Gral. B. O'Higgins
+115107,Hospital San Juan de Dios (San Fernando),Hospital San Juan de Dios de San Fernando,Alta Complejidad,Región del Libertador Gral. B. O'Higgins
+115110,Hospital de Santa Cruz,Hospital de Santa Cruz,Mediana Complejidad,Región del Libertador Gral. B. O'Higgins
+116100,Hospital San Juan de Dios (Curicó),Hospital San Juan de Dios (Curicó),Alta Complejidad,Región del Maule
+116105,Hospital Dr. César Garavagno Burotto (Talca),Hospital Dr. César Garavagno Burotto (Talca),Alta Complejidad,Región del Maule
+116107,Hospital de Constitución,Hospital de Constitución,Mediana Complejidad,Región del Maule
+116108,Hospital Presidente Carlos Ibáñez del Campo (Linares),Hospital Presidente Carlos Ibáñez del Campo (Linares),Alta Complejidad,Región del Maule
+116110,Hospital San José (Parral),Hospital San José (Parral),Mediana Complejidad,Región del Maule
+116111,Hospital San Juan de Dios (Cauquenes),Hospital San Juan de Dios (Cauquenes),Mediana Complejidad,Región del Maule
+117101,Hospital Clínico Herminda Martín (Chillán),Hospital Clínico Herminda Martín (Chillán),Alta Complejidad,Región de Ñuble
+117102,Hospital de San Carlos,Hospital de San Carlos,Alta Complejidad,Región de Ñuble
+118100,Hospital Clínico Regional Dr. Guillermo Grant Benavente (Concepción),Hospital Clínico Regional Dr. Guillermo Grant Benavente (Concepción),Alta Complejidad,Región del Bíobío
+118105,Hospital San José (Coronel),Hospital San José (Coronel),Alta Complejidad,Región del Bíobío
+118106,Hospital de Lota,Hospital de Lota,Alta Complejidad,Región del Bíobío
+119100,Hospital Las Higueras (Talcahuano),Hospital Las Higueras (Talcahuano),Alta Complejidad,Región del Bíobío
+119101,Hospital de Tomé,Hospital de Tomé,Alta Complejidad,Región del Bíobío
+119102,Hospital Penco - Lirquén,Hospital Penco Lirquén,Mediana Complejidad,Región del Bíobío
+120101,Complejo Asistencial Dr. Víctor Ríos Ruiz (Los Ángeles),Complejo Asistencial Dr. Víctor Ríos Ruiz (Los Ángeles),Alta Complejidad,Región del Bíobío
+121109,Hospital Dr. Hernán Henríquez Aravena (Temuco),Hospital Dr. Hernán Henríquez Aravena (Temuco),Alta Complejidad,Región de La Araucanía
+121110,Hospital Dr. Abraham Godoy (Lautaro),Hospital Dr. Abraham Godoy Peña (Lautaro),Mediana Complejidad,Región de La Araucanía
+121114,Hospital Intercultural de Nueva Imperial,Hospital Intercultural de Nueva Imperial,Mediana Complejidad,Región de La Araucanía
+121117,Hospital de Pitrufquén,Hospital de Pitrufquén,Mediana Complejidad,Región de La Araucanía
+121121,Hospital de Villarrica,Hospital de Villarrica,Mediana Complejidad,Región de La Araucanía
+122100,Hospital Clínico Regional (Valdivia),Hospital Base Valdivia,Alta Complejidad,Región de Los Ríos
+123100,Hospital Base San José de Osorno,Hospital Base San José de Osorno,Alta Complejidad,Región de Los Lagos
+124105,Hospital de Puerto Montt,Hospital de Puerto Montt,Alta Complejidad,Región de Los Lagos
+125100,Hospital Regional (Coihaique),Hospital Regional de Coyhaique,Alta Complejidad,Región de Aysén del General Carlos Ibañez del Campo
+126100,Hospital Clínico de Magallanes Dr. Lautaro Navarro Avaria,Hospital Clínico de Magallanes Dr. Lautaro Navarro Avaria,Alta Complejidad,Región de Magallanes y de la Antártica Chilena
+128109,Hospital Provincial Dr. Rafael Avaría (Curanilahue),Hospital Provincial Dr. Rafael Avaría (Curanilahue),Mediana Complejidad,Región del Bíobío
+129100,Hospital Dr. Mauricio Heyermann (Angol),Hospital Dr. Mauricio Heyermann (Angol),Alta Complejidad,Región de La Araucanía
+129106,Hospital San José (Victoria),Hospital San José de Victoria,Alta Complejidad,Región de La Araucanía
+133150,Hospital de Castro,Hospital de Castro,Alta Complejidad,Región de Los Lagos
+200717,,Complejo Asistencial Padre las Casas,Mediana Complejidad,Región de La Araucanía

@@ -1,0 +1,5 @@
+file,MB,sha256
+data/extracted/grd_2023_extracto.csv.gz,40.2,dbe960f33b21837589bda4c989fcada57ff70de8e572714fea3f0574947d3878
+data/extracted/grd_2024_extracto.csv.gz,43.2,7bb1f18b0a9817a578bc2c786f151c28c25965af20cf1438090832e3420ae3a0
+data/reference/Tablas_maestras_bases_GRD.xlsx,0.1,29da22ac27a79a5f3d62e0b97fcff79dcaf1f19908dcf517a7e6bb88f216bd8a
+data/reference/establecimientos_datosgobcl.csv,2.5,21c596531528078107b01388716f93d98516f7a9da1817927fd67644b7faa176

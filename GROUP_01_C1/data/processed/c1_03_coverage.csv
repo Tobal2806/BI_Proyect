@@ -1,0 +1,3 @@
+YEAR,episodes,inpatient,hospitals,discharge_min,discharge_max,admission_min,CMA,discharges_outside_file_year,inpatient_admitted_previous_year_%
+2023,1039587,846043,68,2023-01-01,2023-12-31,2022-01-07,193544,0,1.6
+2024,1085813,873772,72,2024-01-01,2024-12-31,2023-01-01,212041,0,1.63
