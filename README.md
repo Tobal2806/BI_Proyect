@@ -10,3 +10,5 @@ Each stage is kept as a separate, self-contained package folder, exactly as subm
 | Folder | Stage | Submitted | Tag |
 |---|---|---|---|
 | `GROUP_01_W1/` | W1 · Discovering questions worth investigating (candidates A and B) | 25-09-2026 | `w1-submission` |
+
+W1 result: 97/100. Feedback: missing README entry point; close clearly the definition of the stay benchmark and its limits. Both addressed in C1.
