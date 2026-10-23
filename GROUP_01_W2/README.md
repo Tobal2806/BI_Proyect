@@ -8,7 +8,7 @@ Business Intelligence IIB423T-1 · Universidad del Desarrollo · Instructor: Tom
 | Members | Matías López, Cristóbal Ramírez |
 | Submission | Workshop 2, due 29-10-2026 |
 | Project line | Case-mix-adjusted length of stay (IEMA) and extreme stays in FONASA GRD hospitals, 2023-2024 (continued from W1 and C1) |
-| Repository | `<paste repository URL>` · tag `w2-submission` |
+| Repository | `https://github.com/Tobal2806/BI_Proyect` · tag `w2-submission` |
 
 Start with `notebooks/W2_project.ipynb`. It is the W2 deliverable: one executable notebook with continuity and feedback, data dictionary and validation checks, revised EDA, sampling assessment, leakage audit, the train/validation/test split, revised conclusions, the management summary and the AI-use disclosure.
 
@@ -61,4 +61,3 @@ Executed on 23-10-2026 with Python 3.13.16, pandas 3.0.5, numpy 2.5.3, matplotli
 - The notebook runs top to bottom without errors; the saved outputs match the code and data.
 - Repeated patients across subsets cannot be checked, because the extract has no patient identifier (leakage risk L5).
 - The 2024 period was explored descriptively in W1 and C1, so the test subset is not untouched. No parameter, variable choice or threshold was learned from it (notebook section 6.2).
-- The AI-use disclosure (notebook section 7.2) contains a placeholder that the team completes before submission.
