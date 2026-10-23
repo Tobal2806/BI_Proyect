@@ -1,0 +1,22 @@
+id,check,rule,rows_checked,rows_failing,%_failing,status,action
+V1,Schema,both files have the same 26 columns in the same order,2125400,0,0.0,pass,none needed
+V2,Type: admission date,matches the file's date format and parses,2125400,52,0.0024,issue found,excluded (flag INVALID_DATES)
+V3,Type: discharge date,parses with the file's date format,2125400,0,0.0,pass,excluded (flag INVALID_DATES)
+V4,Type: GRD weight,numeric after replacing the decimal comma,2125400,45,0.0021,issue found,corrected (comma → point); remaining failures excluded (flag GRD_INVALID)
+V5,Date logic: order,discharge ≥ admission,2125348,0,0.0,pass,none needed
+V6,Date logic: file year,discharge falls in the file year,2125400,0,0.0,pass,none needed
+V7,Date logic: admission before period,admission in or after 2023 (inpatient),1719763,13519,0.7861,issue found,retained in descriptive set (real stays); excluded from the predictive split (left-truncated cohort)
+V8,Range: LOS,inpatient LOS ≤ 365 days,1719763,152,0.0088,issue found,retained with justification (valid long stays)
+V9,Range: age,0 ≤ AGE ≤ 110,2125335,0,0.0,pass,none needed
+V10,Missing: age,AGE present,2125400,65,0.0031,issue found,retained; imputed with the training median for the predictive set only (section 6)
+V11,Category: GRD code,code in FONASA IR-GRD dictionary,2125400,47,0.0022,issue found,excluded (flag GRD_INVALID)
+V12,Category: severity,"value in {0,1,2,3}",2125400,45,0.0021,issue found,same 45 rows as V4 (not grouped): excluded (flag GRD_INVALID)
+V12b,Consistency: GRD code vs severity,"last digit of GRD code = severity (codes ending in 9 = GRD without severity levels, severity 0)",2125355,0,0.0,pass,"none needed; 3,156 rows with codes ending in 9 and severity 0 follow the IR-GRD convention"
+V13,Category: admission type,"URGENCIA, PROGRAMADA or OBSTETRICA",1719815,98,0.0057,issue found,retained as 'DESCONOCIDO' category; flagged
+V14,Category: sex,HOMBRE or MUJER,2125400,155,0.0073,issue found,retained as 'DESCONOCIDO'; flagged
+V15,Scope: CMA with LOS > 1,ambulatory surgery should not stay > 1 day,405585,419,0.1033,issue found,out of scope (CMA excluded)
+V16,Duplicates: exact rows,no two rows identical in all 26 source fields (within a file),2125400,2927,0.1377,issue found,"retained with justification: no episode ID, identical rows can be distinct episodes"
+V17,Missing identifier: hospital,COD_HOSPITAL not empty,2125400,0,0.0,pass,none needed
+V18,Missing identifier: patient / episode,a patient or episode key exists,2125400,2125400,100.0,issue found,flagged as limitation: patient ID dropped at extraction (data minimisation) and no episode ID is published
+V19,Join coverage: MINSAL facilities,hospital code found (m:1 key unique),2125400,0,0.0,pass,none needed
+V20,Join coverage: FONASA hospital sheet,hospital code found,2125400,10354,0.4872,issue found,flagged: one code new in 2024 missing from the FONASA sheet; MINSAL file used for attributes

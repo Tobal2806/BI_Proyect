@@ -1,0 +1,6 @@
+step,rows_2023_file,rows_2024_file,rows_total,removed_at_step
+All episodes in the two extracts,1039587,1085813,2125400,0
+Inpatient stays (CMA excluded),846043,873772,1719815,405585
+Valid admission and discharge dates,846043,873720,1719763,52
+GRD code in dictionary and numeric weight,846013,873705,1719718,45
+Benchmarkable GRD stratum = analysed dataset,846005,873697,1719702,16

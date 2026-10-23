@@ -1,0 +1,9 @@
+verification,result,detail
+Every valid stay assigned to exactly one subset,OK,"1,719,718 rows"
+Admission windows do not overlap,OK,train ≤ 2023-06-30 < validation ≥ 2023-07-01; validation ≤ 2023-09-30 < test ≥ 2024-01-01
+Train and validation labels known before T (2024-01-01),OK,latest discharge 2023-12-31
+Identical source rows shared by train and validation,OK,0 shared row fingerprints
+Identical source rows shared by train and test,OK,0 shared row fingerprints
+Identical source rows shared by validation and test,OK,0 shared row fingerprints
+Hospitals in test absent from train (expected: hospitals new in 2024),OK,"4 hospitals, 12,281 test rows: Hospital Penco Lirquén, Hospital San Juan de Dios (Cauquenes), Complejo Asistencial Padre las Casas, Hospital de Constitución"
+Repeated patients across subsets,ATTENTION,cannot be verified: no patient identifier in the extract (flagged limitation)

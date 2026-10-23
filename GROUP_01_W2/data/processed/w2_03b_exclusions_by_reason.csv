@@ -1,0 +1,6 @@
+EXCLUSION,2023,2024
+kept (analysed),846005,873697
+CMA (out of scope),193544,212041
+GRD_INVALID,30,15
+INVALID_DATES,0,52
+NOT_BENCHMARKABLE (GRD < 30 cases at code and base level),8,8

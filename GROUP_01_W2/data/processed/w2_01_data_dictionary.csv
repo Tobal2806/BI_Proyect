@@ -1,0 +1,19 @@
+variable,meaning,expected type,acceptable values,missing / unknown means,known at,observed dtype,"% empty or unknown (all 2,125,400 rows)"
+COD_HOSPITAL,Hospital DEIS code,string (6 digits),code in MINSAL facilities file,never expected empty,admission,category,0.0
+FECHA_INGRESO → ADM,Admission date,date,2022-01-01 to discharge date; format by file year,not parseable = invalid record,admission,datetime64[us],0.0
+FECHAALTA → DIS,Discharge date,date,within the file year; ≥ admission,not parseable = invalid record,discharge (outcome),datetime64[us],0.0
+LOS (derived),Length of stay = DIS − ADM,integer days,≥ 0; 0 = same-day stay; > 365 plausible but rare,missing only if a date is invalid,discharge (outcome),float64,0.0
+TIPO_ACTIVIDAD,Episode type,category,"HOSPITALIZACIÓN (inpatient), CMA (ambulatory surgery)",none observed,admission (planned),category,0.0
+TIPO_INGRESO,Admission type,category,"URGENCIA, PROGRAMADA, OBSTETRICA",DESCONOCIDO = not recorded,admission,category,0.0046
+TIPO_PROCEDENCIA,Origin of the patient,category,16 FONASA categories,DESCONOCIDO = not recorded,admission,category,0.0003
+SERVICIOINGRESO,Admitting unit,category,≈ 90 hospital unit labels,DESCONOCIDO = not recorded,admission,category,0.7325
+PREVISION,Insurance category,category,"FONASA A-D, MLE, ISAPRE, others",DESCONOCIDO = not recorded,admission,category,0.003
+SEXO,Sex,category,"HOMBRE, MUJER",DESCONOCIDO = not recorded,admission,category,0.0073
+EDAD_ANIOS → AGE,Age in years at admission (derived in extraction),integer,0 to 110,empty = birth or admission date not parseable,admission,float64,0.0
+HOSPPROCEDENCIA,Hospital the patient was transferred from,string,DEIS code,empty = not a transfer (expected for most rows),admission,category,89.0504
+ESPECIALIDAD_MEDICA,Medical specialty,category,≈ 70 labels,DESCONOCIDO = not recorded,uncertain (to confirm),category,0.0
+IR_29301_COD_GRD,IR-GRD 3.0 code (5-digit base + severity digit),string (6 digits),code in FONASA IR-GRD dictionary,DESCONOCIDO = not grouped,discharge coding,category,0.0021
+IR_29301_PESO → WEIGHT,GRD relative weight,decimal (comma in source),> 0,empty = not grouped,discharge coding,float64,0.0
+IR_29301_SEVERIDAD,Severity level,category,"0, 1, 2, 3 (= last digit of GRD code)",empty = not grouped,discharge coding,category,0.0021
+"DIAGNOSTICO1, N_DIAG, N_PROC",Principal diagnosis; number of coded diagnoses and procedures,string; integer,ICD-10 code; ≥ 0,0 = none coded,discharge coding,category,0.0
+"TIPOALTA, SERVICIOALTA",Discharge type and discharge unit,category,10 discharge types; unit labels,DESCONOCIDO = not recorded,discharge (outcome),category,0.0

@@ -1,0 +1,4 @@
+subset,rows,label available,"no benchmark (unseen GRD, no base)",GRD code unseen in train (base rule used),age imputed,unit → OTHER %,hospital unseen,label prevalence %
+train,421352,421226,126,0,6,0.825,0,6.305
+validation,214640,214565,75,5,0,0.906,0,6.442
+test,655321,655093,228,9,1,1.013,12281,not computed (test)
