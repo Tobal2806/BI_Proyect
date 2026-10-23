@@ -9,7 +9,7 @@ Each stage is a separate package folder. W1 and C1 are kept exactly as submitted
 | Folder | Stage | Submitted | Tag | Result |
 |---|---|---|---|---|
 | `GROUP_01_W1/` | W1 · Discovering questions worth investigating (candidates A and B) | 25-09-2026 | `w1-submission` | 97/100 |
-| `GROUP_01_C1/` | C1 · Profiling, preparation, closed benchmark, sensitivity and EDA of candidate B | 29-09-2026 | `c1-submission` | pending |
+| `GROUP_01_C1/` | C1 · Profiling, preparation, closed benchmark, sensitivity and EDA of candidate B | 29-09-2026 | `c1-submission` | 94/100 |
 | `GROUP_01_W2/` | W2 · Validation checks, revised EDA, sampling, leakage audit and train/validation/test split | 29-10-2026 | `w2-submission` | pending |
 
 ## Where to start
@@ -26,4 +26,7 @@ Each stage is a separate package folder. W1 and C1 are kept exactly as submitted
 ## Feedback received
 
 - **W1:** the deduction was the missing README entry point. The instructor also asked to close clearly the definition of the stay benchmark and its limits. Both were addressed in C1.
-- **C1:** informal feedback asked to state the hypotheses before presenting results and data. This is addressed in W2.
+- **C1 (94/100):** the README was named incorrectly; paths and packaging should be reviewed; methodology and traceability were judged fully complete.
+  - The C1 README is stored in this repository as `GROUP_01_C1/README.md`.
+  - The W2 notebook checks paths and packaging.
+  - Informal feedback also asked to state the hypotheses before presenting results and data, which W2 does.
