@@ -1,0 +1,9 @@
+# Versions used to execute W2 (Python 3.13.16)
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+openpyxl==3.1.5
+nbconvert==7.17.2
+nbformat==5.11.1
+ipykernel==7.4.0
+jupyter
