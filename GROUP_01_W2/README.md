@@ -54,7 +54,14 @@ Randomness is used only for the 25% subsamples in section 4, with `SEED = 2026`.
 
 ## Software
 
-Executed on 23-10-2026 with Python 3.13.16, pandas 3.0.5, numpy 2.5.3, matplotlib 3.11.2, openpyxl 3.1.5, nbconvert 7.17.2, nbformat 5.11.1 and ipykernel 7.4.0. C1 ran on pandas 3.0.2; the notebook checks that its benchmark is identical to C1's.
+The saved outputs come from the team's run on Windows with Python 3.14.3, pandas 3.1.0, numpy 2.5.4 and matplotlib 3.11.2.
+
+The notebook was also executed on Linux with Python 3.13.16, pandas 3.0.5, numpy 2.5.3, matplotlib 3.11.2, openpyxl 3.1.5, nbconvert 7.17.2, nbformat 5.11.1 and ipykernel 7.4.0. Both runs produce identical analysis tables (`w2_02` to `w2_09`, `w2_11`, `w2_12`). The only differences are:
+
+- path separators in `w2_00`;
+- the formatting-dependent parameter fingerprint in `w2_10`, which is compared only within a run.
+
+C1 ran on pandas 3.0.2; the notebook checks that its benchmark is identical to C1's.
 
 ## Execution status and known limitations
 
