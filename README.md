@@ -10,13 +10,15 @@ Each stage is a separate package folder. W1 and C1 are kept exactly as submitted
 |---|---|---|---|---|
 | `GROUP_01_W1/` | W1 · Discovering questions worth investigating (candidates A and B) | 25-09-2026 | `w1-submission` | 97/100 |
 | `GROUP_01_C1/` | C1 · Profiling, preparation, closed benchmark, sensitivity and EDA of candidate B | 29-09-2026 | `c1-submission` | 94/100 |
-| `GROUP_01_W2/` | W2 · Validation checks, revised EDA, sampling, leakage audit and train/validation/test split | 29-10-2026 | `w2-submission` | pending |
+| `GROUP_01_W2/` | W2 · Validation checks, revised EDA, sampling, leakage audit and train/validation/test split | 29-10-2026 | `w2-submission` | 100/100 |
+| `GROUP_01_C2/` | C2 · First model: extreme-stay classification, logistic regression vs emergency-admission baseline | 08-11-2026 | `c2-submission` | 93.75/100 |
 
 ## Where to start
 
 - W1 has no package README (as submitted). Start from `GROUP_01_W1/report/GROUP_01_Report.pdf`.
 - C1 starts from `GROUP_01_C1/README.md`.
 - W2 starts from `GROUP_01_W2/README.md` and `GROUP_01_W2/notebooks/W2_project.ipynb`.
+- C2 starts from `GROUP_01_C2/notebooks/C2_model.ipynb.`
 
 ## Data
 
@@ -30,3 +32,5 @@ Each stage is a separate package folder. W1 and C1 are kept exactly as submitted
   - The C1 README is stored in this repository as `GROUP_01_C1/README.md`.
   - The W2 notebook checks paths and packaging.
   - Informal feedback also asked to state the hypotheses before presenting results and data, which W2 does.
+- **W2 (100/100):** exclude fields not available at admission; freeze extreme-stay thresholds inside training. Both applied in C2.
+- **C2 (93.75/100):** no deductions on documentation; deductions on presentation clarity and on connecting the data to its purpose for the audience.
