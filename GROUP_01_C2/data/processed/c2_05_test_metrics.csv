@@ -1,0 +1,4 @@
+rule,flagged %,TP,FP,FN,TN,precision,recall,F1,accuracy
+"model, threshold 0.60",20.58,14271,120529,25807,494486,0.1059,0.3561,0.1632,0.7766
+baseline: flag every emergency admission,62.07,28139,378447,11939,236568,0.0692,0.7021,0.126,0.4041
+trivial: flag nobody,0.0,0,0,40078,615015,0.0,0.0,0.0,0.9388
