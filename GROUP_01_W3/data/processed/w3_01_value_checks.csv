@@ -1,0 +1,18 @@
+check,passed
+"test stays = C2 summary (655,093)",True
+same test stays for model and rule,True
+"validation stays = C2 summary (214,565)",True
+test recall of model recomputed from counts,True
+test precision of model recomputed from counts,True
+test flagged % of model recomputed from counts,True
+test recall of rule recomputed from counts,True
+test precision of rule recomputed from counts,True
+test flagged % of rule recomputed from counts,True
+test prevalence = C2 summary (6.12%),True
+curve at 0.60 = validation table (chosen),True
+curve at 0.50 = validation table (default),True
+chosen threshold = C2 summary (0.6),True
+admission types add up to the test stays,True
+"extreme stays by type add up to the test total (rounding of C2 table, +-10)",True
+emergency rule catches every extreme emergency stay (recall 1.0 in C2 table),True
+"extreme emergency stays = rule true positives (rounding, +-5)",True

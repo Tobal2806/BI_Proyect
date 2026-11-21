@@ -1,0 +1,7 @@
+# Versions used to execute W3 (Python 3.13.18 on Linux)
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+ipykernel
+nbconvert
+jupyter

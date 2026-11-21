@@ -1,0 +1,41 @@
+view,series,measure,value shown
+View 1 (test),Model alert (threshold 0.60),extreme stays caught %,35.6
+View 1 (test),Model alert (threshold 0.60),admissions flagged %,20.6
+View 1 (test),Model alert (threshold 0.60),flags that are extreme stays %,10.6
+View 1 (test),Emergency rule (flag every emergency admission),extreme stays caught %,70.2
+View 1 (test),Emergency rule (flag every emergency admission),admissions flagged %,62.1
+View 1 (test),Emergency rule (flag every emergency admission),flags that are extreme stays %,6.9
+View 1 (test),all admissions,base rate %,6.1
+View 2 (validation),Model 0.40,admissions flagged %,71.1
+View 2 (validation),Model 0.40,extreme stays caught %,87.7
+View 2 (validation),Model 0.40,flags that are extreme stays %,8.0
+View 2 (validation),Model 0.45,admissions flagged %,61.4
+View 2 (validation),Model 0.45,extreme stays caught %,81.0
+View 2 (validation),Model 0.45,flags that are extreme stays %,8.5
+View 2 (validation),Model 0.50 (default),admissions flagged %,50.3
+View 2 (validation),Model 0.50 (default),extreme stays caught %,71.6
+View 2 (validation),Model 0.50 (default),flags that are extreme stays %,9.2
+View 2 (validation),Model 0.60 (chosen),admissions flagged %,23.7
+View 2 (validation),Model 0.60 (chosen),extreme stays caught %,41.3
+View 2 (validation),Model 0.60 (chosen),flags that are extreme stays %,11.2
+View 2 (validation),Model 0.70,admissions flagged %,5.1
+View 2 (validation),Model 0.70,extreme stays caught %,11.2
+View 2 (validation),Model 0.70,flags that are extreme stays %,14.1
+View 2 (validation),Emergency rule,admissions flagged %,61.0
+View 2 (validation),Emergency rule,extreme stays caught %,69.4
+View 2 (validation),Emergency rule,flags that are extreme stays %,7.3
+View 3 (test),Emergency: model,extreme stays caught %,41.0
+View 3 (test),Emergency: emergency rule,extreme stays caught %,100.0
+View 3 (test),Emergency: model,flags that are extreme stays %,10.3
+View 3 (test),Emergency: emergency rule,flags that are extreme stays %,6.9
+View 3 (test),Emergency,extreme-stay rate %,6.9
+View 3 (test),Obstetric: model,extreme stays caught %,34.0
+View 3 (test),Obstetric: emergency rule,extreme stays caught %,0.0
+View 3 (test),Obstetric: model,flags that are extreme stays %,12.2
+View 3 (test),Obstetric: emergency rule,flags that are extreme stays %,flags none
+View 3 (test),Obstetric,extreme-stay rate %,6.9
+View 3 (test),Scheduled: model,extreme stays caught %,2.9
+View 3 (test),Scheduled: emergency rule,extreme stays caught %,0.0
+View 3 (test),Scheduled: model,flags that are extreme stays %,8.8
+View 3 (test),Scheduled: emergency rule,flags that are extreme stays %,flags none
+View 3 (test),Scheduled,extreme-stay rate %,3.1
