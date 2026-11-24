@@ -3,3 +3,8 @@ _src/
 .ipynb_checkpoints/
 __pycache__/
 ~$*
+# C3 rule: no data files in the assessed repository (keep local copies here to re-run)
+GROUP_01_W1/data/extracted/
+GROUP_01_W1/data/reference/
+GROUP_01_C1/data/extracted/
+GROUP_01_C1/data/reference/

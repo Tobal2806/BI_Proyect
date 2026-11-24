@@ -1,0 +1,5 @@
+TIPO_INGRESO,stays,extreme stays,extreme-stay rate %,caught by model,missed by model,flagged by model,model recall %,model precision %,rule recall %,rule flags,rule precision %
+URGENCIA,406586.0,28139.0,6.9,11551.0,16588.0,112158.0,41.0,10.3,100.0,406586.0,6.9
+PROGRAMADA,137887.0,4310.0,3.1,124.0,4186.0,1408.0,2.9,8.8,0.0,0.0,
+OBSTETRICA,110586.0,7628.0,6.9,2596.0,5032.0,21230.0,34.0,12.2,0.0,0.0,
+DESCONOCIDO,34.0,1.0,2.9,0.0,1.0,4.0,0.0,0.0,0.0,0.0,
